@@ -1,0 +1,99 @@
+.inbar {
+	margin: auto;
+ 	left: 50%;
+  	top: 50%;
+  	transform: translate(-50%, -50%);
+	background-color: rgba(9, 24, 184, 0.85);
+	position: absolute; 	
+	margin: auto;
+	height: 350px;
+	width: 500px;
+	font-family: "Segoe UI"
+	opacity: 0.875;
+	border-radius: 25px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5),0 6px 20px 0 rgba(0,0,0,0.47);
+}
+.inbar .title {
+	font-size: 36pt;
+	padding: 2px;
+	text-align: center;
+	color: #FFF;
+}
+.inbar a {
+  font-family: "Segoe UI Light";
+  text-align: center;
+  text-decoration: none;
+  color: #FFF;
+}
+.inbar a:hover{
+  background-color: rgba(9, 24, 184, 0.85);
+}
+.inbar form {
+  background-color: transparent;
+}
+.inbar input[type=text], input[type=password] {
+	font-family: "Segoe UI Light";
+	width: 100%;
+ 	background-color: #CCC;
+  	padding: 12px 20px;
+  	margin: 8px 0;
+  	display: inline-block;
+	border: 0px;
+  	box-sizing: border-box;
+}
+.inbar .container {
+	font-family: "Segoe UI";
+ 	padding: 16px;
+  	background-color: transparent;
+  	color: #FFF;
+    align-self: center;
+    height: auto;
+}
+.inbar .container .column {
+    float: left;
+  	background-color: inherit;
+    width: auto;
+    height: auto;
+    align-self: auto;
+}
+.inbar .container label{
+	margin-top: 15px;
+	font-size: 1.5em;
+	background-color: transparent;
+}
+.inbar span.psw {
+  	float: right;
+  	padding-top: 16px;
+}
+#logindiv{
+	width: 35%;
+	margin-top: 20px;
+	background-color: #CCC;
+	border: 0px;
+	padding: 3px;
+	margin-left: 145px;
+	border-radius: 25px;
+}
+#logindiv button {
+	text-decoration: none;
+	text-align: center;
+	width: 33%;
+	background-color: transparent;
+	color: #000;
+	overflow: hidden;
+	cursor: pointer;
+	border: 0px;
+	padding: 0px;
+	font-size: 1.1em;
+}
+#logindiv:hover{
+	background-color: #FFF;
+}
+#logindiv button:focus{
+	background-color: #FFF;
+	font-size: 1em;
+}
+#rme {
+	font-size: 12pt;
+	font-family: "Segoe UI Light";
+}

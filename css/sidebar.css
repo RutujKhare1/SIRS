@@ -1,0 +1,40 @@
+.sidepane {
+	height: 0;
+	width:  250px;
+	position: fixed;
+	z-index: 1;
+	top: 48px;
+	left: 10px;
+	background-color: rgba(9, 24, 184, 0.75);
+	overflow-x: hidden;
+	transition: 0.35s ease-in-out;
+	opacity: 0;
+  font-size: 1.1em;
+  border-radius: 15px;
+}
+.sidepane a {
+  font-family: "Segoe UI Light";
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 1.2em; 
+  color: #DDD;
+  display: flex;
+  transition: 0.4s;
+  overflow: hidden;
+}
+.sidepane a:hover{
+  background-color: rgba(9, 24, 184, 0.95);
+  color: #FFF;
+  opacity: 0.9999;
+}
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+.openbtn:focus {
+  border: 2px rgba(255,255,255,1);
+}

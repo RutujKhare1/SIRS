@@ -1,0 +1,21 @@
+.profile{
+	  display: grid;
+    grid-template-columns: auto;
+  	padding: 10px;
+  	margin-top: 48px;
+  	grid-row-gap: 1em;
+  	grid-column-gap: 1em;
+    overflow-wrap: all;
+    overflow: hidden;
+}
+.profile-item {
+  	text-decoration: none;
+  	text-align: left;
+  	width: auto;
+  	max-width: 100%;
+  	height: auto;
+  	background-color: transparent;
+  	color: #111;
+  	font-size: 1.45em;
+  	padding: 0.4em;
+}
